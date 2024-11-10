@@ -2,7 +2,7 @@
 @import url(style_Reset.css);
 
 div#wrap {
-  width: 280px;
+  width: 290px;
   padding: 15px;
   border: 1px solid #aaa;
   border-radius: 4px;
@@ -10,8 +10,9 @@ div#wrap {
 }
 
 h1 {
-	font-size: 26px;
-	text-indent: 20px;
+	font-size: 22px;
+	text-align: center;
+/* 	text-indent: 20px; */
 	margin-bottom: 15px;
 }
 
