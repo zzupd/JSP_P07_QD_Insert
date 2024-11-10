@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+div#wrap {
+  width: 280px;
+  padding: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 10px auto;
+}
+
+h1 {
+	font-size: 26px;
+	text-indent: 20px;
+	margin-bottom: 15px;
+}
+
+form>table {
+	width: 100%;
+	border: 1px solid #08f;
+	border-collapse: collapse;
+}
+form>table td {
+	padding: 6px;
+	border: 1px solid #08f;
+}
+form>table tr:not(:last-child) td:first-child {
+	width: 80px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: right;
+}
+form>table tr:not(:last-child) td input {
+	width: 140px;
+	font-size: 14px;
+	padding: 4px 8px;
+}
+form>table tr:nth-child(4) td input {
+	width: 100px;
+}
+
+/* 상품 입력 영역 버튼 시작 */
+form>table tr:last-child td{
+	text-align: center;
+}
+form>table tr:last-child td button {
+	width: 80px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 10px;
+	cursor: pointer;
+}
+/* 상품 입력 영역 버튼 끝 */
+
+/* 상품 입력 실행 영역 시작 */
+
+h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*/ 상품 입력 실행 영역 버튼 시작 /*/
+div#btnArea {
+	text-align: center;
+}
+div#btnArea button {
+	width: 80px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 10px;
+	cursor: pointer;
+}
+/* 상품 입력 실행 영역 버튼 끝 */
+/* 상품 입력 실행 영역 끝 */
+
+
